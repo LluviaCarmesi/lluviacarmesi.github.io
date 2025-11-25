@@ -1,5 +1,6 @@
 <script>
     import EmbeddedContent from "../../components/EmbeddedContent.svelte";
-
+    import { resolve } from "$app/paths";
 </script>
-<EmbeddedContent source="/phishing-game" />
+
+<EmbeddedContent source={`${resolve}/phishing-game`} />
